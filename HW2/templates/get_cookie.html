@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action=" {{ url_for('get_cookie') }}" method="post">
+    <h1>Hello {{ login }}!</h1>
+    <a href="{{ url_for('get_login') }}">
+        <button name="Exit">Exit</button>
+    </a>
+</form>
+
+</body>
+</html>
